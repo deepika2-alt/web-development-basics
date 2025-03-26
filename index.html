@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Webpage</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Image Gallery */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .image-container img {
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Awesome Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>This page is a simple example demonstrating HTML structure, images, and lists.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Here are some beautiful images:</p>
+            <div class="image-container">
+                <img src="./image1.jpeg" alt="Sample Image 1">
+                <img src="./image2.jpeg" alt="Sample Image 2">
+                <img src="./image3.jpeg" alt="Sample Image 3">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Learn more about web development at <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a>.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Awesome Webpage. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
